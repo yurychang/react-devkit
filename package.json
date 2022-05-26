@@ -1,0 +1,26 @@
+{
+  "name": "@yurychang/react-devkit",
+  "main": "dist/index.js",
+  "module": "lib/index.js",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "yarn rollup -c -w",
+    "build": "yarn rollup -c"
+  },
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "react": "^18.1.0",
+    "rollup": "^2.74.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2"
+  }
+}
