@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@react-devkit/hooks/create-context": [
+        "libs/hooks/create-context/src/index.ts"
+      ],
       "@yurychang/react-devkit": ["libs/react-devkit/src/index.ts"]
     }
   },
